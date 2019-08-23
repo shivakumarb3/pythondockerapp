@@ -1,6 +1,13 @@
-click==6.7
-Flask==1.0.2
-itsdangerous==0.24
-Jinja2==2.10.1
-MarkupSafe==1.0
-Werkzeug==0.14.1
+botframework-connector>=4.4.0.b1
+botbuilder-schema>=4.4.0.b1
+botbuilder-core>=4.4.0.b1
+botbuilder-dialogs>=4.4.0.b1
+botbuilder-ai>=4.4.0.b1
+datatypes-date-time>=1.0.0.a1
+azure-cognitiveservices-language-luis>=0.2.0
+msrest>=0.6.6
+asyncio>=3.4.3
+requests>=2.22.0
+request>=2018.11.20
+beautifulsoup4 >=4.8.0
+
