@@ -12,7 +12,7 @@ from services.Scrap import *
 from services.Scrap2 import *
 
 
-APP_ID = ''
+APP_ID = '35acc8e7-306a-484e-8dff-27221595ed24'
 APP_PASSWORD = ''
 
 
