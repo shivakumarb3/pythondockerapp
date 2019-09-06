@@ -7,31 +7,34 @@ class Scrap:
         self.i=intent
         
     def getAnswer(self):
-         p={
-    
-          'q':self.e+" "+self.i
-         }
-
          r1=requests.get("https://www.imdb.com/title/tt7465992/")
          #print(r1)
          #print(self.i)
-         print(r1.text)
+         #print(r1.text)
          soup = BeautifulSoup(r1.text,"html.parser")
          #li = soup.find('span', {'class': 'oqSTJd'})
-         #li2=soup.find('div', {'class': 'BNeawe vvjwJb AP7Wnd'})clc
+         print(soup)
+         li2=soup.find('div', {'class': 'inline canwrap'})
          #li=soup.select('div.BNeawe s3v9rd AP7Wnd')
          s=""
-         #print(soup)
-         #print(li)
+         #print(li2.find('span').text)
+         #r=li2.find('span').text
          r=""
+         #print(li2)
+        
+         #print(li2)
+         #li2.find('p').text
          #if li2!=None:
             #for element  in li2:
-                #r=r+element+"\n"
+                #for e in element:
+                    #print(e)
+                
          #if li!=None:
             #for element in li:
            #print(element)
                 #s=s+element+"\n"
          #return s+"\n"+r
+         return r
 v=Scrap("maharshi","review")
 print(v.getAnswer())
 #r=Review("rangasthalam")
