@@ -13,7 +13,7 @@ from services.Scrap2 import *
 
 
 APP_ID = '35acc8e7-306a-484e-8dff-27221595ed24'
-APP_PASSWORD = ''
+APP_PASSWORD = 'q_YW73SG1pNJCs*bjFeWzUuFRUjGY1-['
 
 
 class BotRequestHandler(http.server.BaseHTTPRequestHandler):
