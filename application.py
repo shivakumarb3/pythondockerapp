@@ -101,7 +101,7 @@ class BotRequestHandler(http.server.BaseHTTPRequestHandler):
 
 
 try:
-    SERVER = http.server.HTTPServer(('0.0.0.0', 5000), BotRequestHandler)
+    SERVER = http.server.HTTPServer(('127.0.0.1', 5000), BotRequestHandler)
     print('Started http server')
     SERVER.serve_forever()
 except KeyboardInterrupt:
