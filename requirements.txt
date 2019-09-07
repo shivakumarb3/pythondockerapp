@@ -4,7 +4,7 @@ botbuilder-core>=4.5.0b4
 botbuilder-dialogs>=4.5.0b4 
 botbuilder-ai>=4.5.0b4 
 datatypes-date-time>=1.0.0.a1
-azure-cognitiveservices-language-luis>=0.2.0
+azure-cognitiveservices-language-luis==0.2.0
 botbuilder-applicationinsights>=4.5.0b4 
 botbuilder-azure>=4.5.0b4 
 msrest>=0.6.9
